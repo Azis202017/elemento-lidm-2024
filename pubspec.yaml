@@ -1,0 +1,50 @@
+name: flutter_embed_unity_android_example
+publish_to: none
+description: Demonstrates how to use the flutter_embed_unity_android plugin.
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_embed_unity: ^1.0.4
+  flutter_embed_unity_2022_3_android: ^1.0.1
+  get: 4.6.6
+  google_fonts: ^6.2.1
+  intl: any
+  lottie: ^3.1.0
+  torch_controller: ^2.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.3
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lottie/
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: fonts/Gilroy-Regular.ttf
+
+    - family: Gilroy-Bold
+      fonts:
+        - asset: fonts/Gilroy-Bold.ttf
+          weight: 700
+    - family: Gilroy-Medium
+      fonts:
+        - asset: fonts/Gilroy-Medium.ttf
+          weight: 500
+    - family: Gilroy-Bold
+      fonts:
+        - asset: fonts/Gilroy-Black.ttf
+          weight: 800
+
+    - family: PoetsenOne
+      fonts:
+        - asset: fonts/PoetsenOne-Regular.ttf
